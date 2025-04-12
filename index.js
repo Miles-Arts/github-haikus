@@ -1,6 +1,5 @@
 const express = require('express');
-const extractRandomHaikus = require('./utils/readPDF');
-
+const { extractRandomHaikus } = require('./utils/helpers');
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -8,11 +7,11 @@ app.use(express.static('public'));
 
 app.get('/', async (req, res) => {
     try {
-        // Obtén un fragmento aleatorio del archivo de texto
-        const haikus = await extractRandomHaikus('./utils/pruebe.txt');
+        // Obtén un haiku aleatorio del archivo de texto
+        const haikus = await extractRandomHaikus('./utils/haikus.json', 1); // Extrae 1 haiku aleatorio
 
-        // Renderiza la plantilla EJS con el fragmento extraído
-        res.render('index', { haikus: haikus.map(text => ({ text, image: 'default.jpg' })) });
+        // Renderiza la plantilla EJS con el haiku extraído
+        res.render('index', { haikus });
     } catch (err) {
         console.error('Error procesando el archivo de texto:', err);
         res.status(500).send('Error procesando el archivo de texto');

@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>👦🏼 The Principito Haikus 📚</title>
-    <link href="/css/main.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <h1>👦🏼 El Principito Haikus 📚</h1>
-    <div>
-      <% for (var i = 0; i < haikus.length; i++) { %>
-        <div class="haiku-containers">
-          <p class="haikus"><%= haikus[i].text || 'Texto no disponible' %></p>
-        </div>
-      <% } %>
-    </div>
 
-    <div style="text-align: center; margin-top: 20px;">
-      <button onclick="window.location.reload()" style="padding: 14px 120px; font-size: 16px; background-color: #007BFF; color: white; border: none; border-radius: 30px; cursor: pointer;">
-        🔄 &nbsp;<span id="countdown"> 40 &nbsp;&nbsp;&nbsp; </span> &nbsp;&nbsp;&nbsp; 👉  &nbsp;Actualizar ahora
-      </button>
-    </div>
+<head>
+  <title>👦🏼 The Principito Haikus 📚</title>
+  <link href="/css/main.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-    <!-- Temporizador visible -->
-    <!-- <div id="timer" style="text-align: center; margin-top: 20px; font-size: 18px;">
+<body>
+  <h1>👦🏼 El Principito Haikus 📚</h1>
+  <% for (var i=0; i < haikus.length; i++) { %>
+    <div class="haiku-containers">
+      <p class="haikus">
+        <%= haikus[i].text %>
+      </p>
+      <div class="mona-images">
+        <img src="/images/<%= haikus[i].image %>" alt="Haiku Image" style="max-width: 100%; height: auto;">
+      </div>
+        
+    </div>
+    <% } %>
+
+      <div style="text-align: center; margin-top: 20px;">
+        <button onclick="window.location.reload()"
+          style="padding: 14px 120px; font-size: 16px; background-color: #007BFF; color: white; border: none; border-radius: 30px; cursor: pointer;">
+          🔄 &nbsp;<span id="countdown"> 40 &nbsp;&nbsp;&nbsp; </span> &nbsp;&nbsp;&nbsp; 👉 &nbsp;Actualizar ahora
+        </button>
+      </div>
+
+      <!-- Temporizador visible -->
+      <!-- <div id="timer" style="text-align: center; margin-top: 20px; font-size: 18px;">
       👉 La página se recargará en <span id="countdown">40</span> segundos 🕐.
     </div> -->
-  
 
-    <!-- Script para recargar la página y actualizar el temporizador -->
-    <script>
-      let countdown = 40; // Tiempo en segundos
-      const countdownElement = document.getElementById('countdown');
 
-      const interval = setInterval(() => {
-        countdown--;
-        countdownElement.textContent = countdown;
+      <!-- Script para recargar la página y actualizar el temporizador -->
+      <script>
+        let countdown = 40; // Tiempo en segundos
+        const countdownElement = document.getElementById('countdown');
 
-        if (countdown <= 0) {
-          clearInterval(interval);
-          window.location.reload(); // Recarga la página
-        }
-      }, 1000); // Actualiza cada segundo
-    </script>
-     <footer style="margin-top: 18px; padding: 4px; background-color: #333; color: #fff; text-align: center;">
-      <p>Haikus for El Principito.</p>
-      <p>ANTOINE MARIE JEAN-BAPTISTE ROGER DE SAINT-EXUPÉRY.</p>
-      <p>&copy; 2025 Latam</p>
-    </footer>
-  </body>
+        const interval = setInterval(() => {
+          countdown--;
+          countdownElement.textContent = countdown;
+
+          if (countdown <= 0) {
+            clearInterval(interval);
+            window.location.reload(); // Recarga la página
+          }
+        }, 1000); // Actualiza cada segundo
+      </script>
+      <footer style="margin-top: 18px; padding: 4px; background-color: #333; color: #fff; text-align: center;">
+        <p>Haikus for El Principito.</p>
+        <p>ANTOINE MARIE JEAN-BAPTISTE ROGER DE SAINT-EXUPÉRY.</p>
+        <p>&copy; 2025 Latam</p>
+      </footer>
+</body>
+
 </html>
