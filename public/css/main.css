@@ -3,6 +3,8 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-size: 1rem; /* Tamaño base del texto */
+    line-height: 1.5; /* Espaciado entre líneas */
 }
 
 body > *:not(footer) {
@@ -29,10 +31,14 @@ footer {
     margin-top: auto; /* Empuja el footer hacia abajo */
 }
 
+.top {
+    margin-top: 2%;
+}
+
 .mona-images {
-    margin: 0 auto;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 18%; /* La imagen ocupará el 80% del ancho del contenedor */
+    max-height: 18vh; /* La altura máxima será el 80% de la altura de la pantalla */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
     border: 80px solid #2a2b2f;
     
 }
@@ -48,11 +54,19 @@ footer {
     white-space: pre-wrap;
 } */
 
+.emoji {
+    font-size: 16px; /* Tamaño del emoji */
+    margin-right: 16px; /* Espacio entre el emoji y el texto */
+    vertical-align: middle; /* Alinea el emoji con el texto */
+}
+
 .haiku-containers {
     display: flex; /* Activa Flexbox */
     flex-direction: column;
     align-items: center; /* Centra verticalmente el contenedor */ /* Asegura que ocupe toda la altura de la pantalla */
-    padding: 10px;
+    padding: 8px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .haikus {

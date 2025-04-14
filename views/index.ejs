@@ -8,21 +8,15 @@
 </head>
 
 <body>
-  <h1>👦🏼 Haikus GitHub  📚</h1>
-  <% for (var i=0; i < haikus.length; i++) { %>
-    <div class="haiku-containers">
+  <h1 class="top">👦🏼 Haikus GitHub  📚</h1>
+     <% for (var i = 0; i < haikus.length; i++) { %>
+     <div class="haiku-containers">
       <p class="haikus">
-        <%= haikus[i].text %>
+        <span class="emoji"><%= haikus[i].emoji %></span> <%= haikus[i].text %>
       </p>
-      <div class="mona-images">
-        
-        <img src="/images/<%= haikus[i].image %>" alt="Haiku Image" style="max-width: 40%; height: auto;">
-    
+      <img class="mona-images" src="/images/<%= haikus[i].image %>" alt="Haiku Image">
       </div>
-        
-    </div>
-    <% } %>
-
+      <% } %>
       <div style="text-align: center; margin-top: 20px;">
         <button onclick="window.location.reload()"
           style="padding: 14px 120px; font-size: 16px; background-color: #007BFF; color: white; border: none; border-radius: 30px; cursor: pointer;">
