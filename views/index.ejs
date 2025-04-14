@@ -2,20 +2,22 @@
 <html>
 
 <head>
-  <title>👦🏼 The Principito Haikus 📚</title>
+  <title>👦🏼 Haikus GitHub  📚</title>
   <link href="/css/main.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <h1>👦🏼 El Principito Haikus 📚</h1>
+  <h1>👦🏼 Haikus GitHub  📚</h1>
   <% for (var i=0; i < haikus.length; i++) { %>
     <div class="haiku-containers">
       <p class="haikus">
         <%= haikus[i].text %>
       </p>
       <div class="mona-images">
+        
         <img src="/images/<%= haikus[i].image %>" alt="Haiku Image" style="max-width: 40%; height: auto;">
+    
       </div>
         
     </div>
@@ -50,9 +52,9 @@
         }, 1000); // Actualiza cada segundo
       </script>
       <footer style="margin-top: 18px; padding: 4px; background-color: #333; color: #fff; text-align: center;">
-        <p>Haikus for El Principito.</p>
-        <p>ANTOINE MARIE JEAN-BAPTISTE ROGER DE SAINT-EXUPÉRY.</p>
-        <p>&copy; 2025 Latam</p>
+      
+        <p>Haikus GitHub.</p>
+        <p>&copy; 2025 Latam.</p>
       </footer>
 </body>
 

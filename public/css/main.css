@@ -30,19 +30,36 @@ footer {
 }
 
 .mona-images {
+    margin: 0 auto;
     max-width: 400px;
     max-height: 400px;
-    border: 8px solid #2a2b2f;
+    border: 80px solid #2a2b2f;
     
 }
 
-.haiku-containers {
+/* .haiku-containers {
+    text-align: center;
     padding: 10px 0px 20px 0px;
 }
 
 .haikus {
+    text-align: left;
     font-size: 18px;
     white-space: pre-wrap;
+} */
+
+.haiku-containers {
+    display: flex; /* Activa Flexbox */
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente el contenedor */ /* Asegura que ocupe toda la altura de la pantalla */
+    padding: 10px;
+}
+
+.haikus {
+    text-align: left; /* Alinea el texto hacia la izquierda */
+    font-size: 18px;
+    white-space: pre-wrap; /* Respeta los saltos de línea */
+
 }
 
 @media only screen and (max-width: 600px) {
