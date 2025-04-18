@@ -55,7 +55,7 @@ footer {
 } */
 
 .emoji {
-    font-size: 16px; /* Tamaño del emoji */
+    font-size: 26px; /* Tamaño del emoji */
     margin-right: 16px; /* Espacio entre el emoji y el texto */
     vertical-align: middle; /* Alinea el emoji con el texto */
 }
