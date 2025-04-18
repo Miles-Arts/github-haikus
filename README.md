@@ -57,12 +57,12 @@ Contributions are welcome! Feel free to submit a pull request or open an issue t
 ### English:
 This project draws inspiration from the official GitHub mascot images hosted on the [Octodex](https://octodex.github.com). These images are a creative representation of GitHub's mascot, Mona, and are used to inspire and collaborate with the GitHub community. We aim to support and engage with the GitHub community, especially the Spanish-speaking community.
 
-**Note:** All rights to the images belong to GitHub © 2025, Inc.
+**Note:** All rights to the images belong to GitHub, Inc. © 2025.
 
 ### Español:
 Este proyecto se inspira en las imágenes oficiales de la mascota de GitHub alojadas en el [Octodex](https://octodex.github.com). Estas imágenes son una representación creativa de la mascota de GitHub, Mona, y se utilizan para inspirar y colaborar con la comunidad de GitHub. Nuestro objetivo es apoyar y colaborar con la comunidad de GitHub, especialmente con la comunidad de habla hispana.
 
-**Nota:** Todos los derechos de las imágenes pertenecen a GitHub © 2025, Inc.
+**Nota:** Todos los derechos de las imágenes pertenecen a GitHub, Inc. © 2025.
 
 ---
 
