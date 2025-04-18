@@ -76,6 +76,30 @@ Este proyecto se está desarrollando en **GitHub Codespaces** con la ayuda de **
 
 ---
 
+## 👤 Author / Autor
+
+### English:
+- **Name:** Milton Figueredo
+- **GitHub:** [Miles-Arts](https://github.com/Miles-Arts)
+- **LinkedIn:** [Milton Figueredo](https://www.linkedin.com/in/milton-figueredo-miles-arts/)
+
+### Español:
+- **Nombre:** Milton Figueredo
+- **GitHub:** [Miles-Arts](https://github.com/Miles-Arts)
+- **LinkedIn:** [Milton Figueredo](https://www.linkedin.com/in/milton-figueredo-miles-arts/)
+
+---
+
+## 🙏 Acknowledgments / Agradecimientos
+
+### English:
+Thank you for reading and using this project, which was initially inspired by the repository [haikus-para-codespaces-sp](https://github.com/AndreaGriffiths11/haikus-para-codespaces-sp) by GitHub Staff member Andrea Liliana Griffiths.
+
+### Español:
+Gracias por leer y utilizar este proyecto, que fue inicialmente inspirado por el repositorio [haikus-para-codespaces-sp](https://github.com/AndreaGriffiths11/haikus-para-codespaces-sp) de la programadora del equipo de GitHub, Andrea Liliana Griffiths.
+
+---
+
 ## 📜 License / Licencia
 
 ### English:
