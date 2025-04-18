@@ -7,10 +7,15 @@ app.use(express.static('public'));
 
 app.get('/', async (req, res) => {
     try {
-        // Obtén un haiku aleatorio del archivo de texto
-        const haikus = await extractRandomHaikus('./utils/haikus.json', 1); // Extrae 1 haiku aleatorio
+        const emojis = ["🤖", "🖥️", "💻", "📱", "⌨️", "🖱️", "🧠", "📡", "🌐", "🔌", "⚙️", "🔋", "🔐", "🎮", "🔗"]
+        ; // Lista de emojis
+        const haikus = await extractRandomHaikus('./utils/haikus.json', 1); // Extrae 5 haikus aleatorios
 
-        // Renderiza la plantilla EJS con el haiku extraído
+        // Asigna un emoji aleatorio a cada haiku
+        haikus.forEach(haiku => {
+            haiku.emoji = emojis[Math.floor(Math.random() * emojis.length)];
+        });
+
         res.render('index', { haikus });
     } catch (err) {
         console.error('Error procesando el archivo de texto:', err);
