@@ -1,0 +1,735 @@
+[
+    {
+      "name": "the Filmtocat",
+      "url": "https://octodex.github.com//images/filmtocat.png",
+      "author": "jeejkang",
+      "haiku": "Luces, cámara, git\nCeluloides digitales\nFilma tu código"
+    },
+    {
+      "name": "the Private Investocat",
+      "url": "https://octodex.github.com//images/privateinvestocat.jpg",
+      "author": "jeejkang",
+      "haiku": "Ojos vigilantes\nTras errores escondidos\nCaso resuelto, merge"
+    },
+    {
+      "name": "the Gracehoppertocat",
+      "url": "https://octodex.github.com//images/gracehoppertocat.jpg",
+      "author": "jeejkang",
+      "haiku": "Bytes navegando\nMares de computación\nLegado eterno"
+    },
+    {
+      "name": "the Gobble-o-tron",
+      "url": "https://octodex.github.com//images/gobbleotron.gif",
+      "author": "JohnCreek",
+      "haiku": "Traga el código\nDigiere bugs y errores\nSuelta soluciones"
+    },
+    {
+      "name": "the Jetpacktocat",
+      "url": "https://octodex.github.com//images/jetpacktocat.png",
+      "author": "tonyjaramillo",
+      "haiku": "Vuelo a las nubes\nRepositorios en alto\nGit sin gravedad"
+    },
+    {
+      "name": "the Minertocat",
+      "url": "https://octodex.github.com//images/minertocat.png",
+      "author": "tonyjaramillo",
+      "haiku": "Pico de datos\nDesentierra información\nCódigo es tesoro"
+    },
+    {
+      "name": "the Mountietocat",
+      "url": "https://octodex.github.com//images/mountietocat.png",
+      "author": "jeejkang",
+      "haiku": "Guardián del norte\nVigilante del código\nMerge permitido"
+    },
+    {
+      "name": "the Saketocat",
+      "url": "https://octodex.github.com//images/saketocat.png",
+      "author": "jeejkang",
+      "haiku": "Sorbo de saké\nRepositorio en calma\nCódigo sereno"
+    },
+    {
+      "name": "the Luchadortocat",
+      "url": "https://octodex.github.com//images/luchadortocat.png",
+      "author": "jeejkang",
+      "haiku": "Máscara brillante\nDerriba todos los bugs\nVictoria del pull"
+    },
+    {
+      "name": "the Saritocat",
+      "url": "https://octodex.github.com//images/saritocat.png",
+      "author": "jeejkang",
+      "haiku": "Tela de colores\nTradicional elegancia\nCódigo sagrado"
+    },
+    {
+      "name": "the Topguntocat",
+      "url": "https://octodex.github.com//images/topguntocat.png",
+      "author": "JohnCreek",
+      "haiku": "Vuelo peligroso\nAceleración de código\nZona de peligro"
+    },
+    {
+      "name": "the Carlostocat",
+      "url": "https://octodex.github.com//images/carlostocat.gif",
+      "author": "JohnCreek",
+      "haiku": "Ritmo caribeño\nLíneas de código bailan\nCommit tropical"
+    },
+    {
+      "name": "the Grinchtocat",
+      "url": "https://octodex.github.com//images/grinchtocat.gif",
+      "author": "leereilly",
+      "haiku": "Navidad en Git\nRobando bugs, no regalos\nCorazón que crece"
+    },
+    {
+      "name": "the Maxtocat",
+      "url": "https://octodex.github.com//images/maxtocat.gif",
+      "author": "tonyjaramillo",
+      "haiku": "Salvaje código\nLibre en tierra australiana\nFurioso commit"
+    },
+    {
+      "name": "the Yaktocat",
+      "url": "https://octodex.github.com//images/yaktocat.png",
+      "author": "jeejkang",
+      "haiku": "Pelaje nevado\nPaciencia del Himalaya\nYak del código puro"
+    },
+    {
+      "name": "the Steroidtocat",
+      "url": "https://octodex.github.com//images/steroidtocat.png",
+      "author": "tonyjaramillo",
+      "haiku": "Músculos de Git\nFuerza para todo push\nNada le detiene"
+    },
+    {
+      "name": "the Mummytocat",
+      "url": "https://octodex.github.com//images/mummytocat.gif",
+      "author": "jeejkang",
+      "haiku": "Antiguo legado\nCódigo de milenios\nWrap en vendajes"
+    },
+    {
+      "name": "the Labtocat",
+      "url": "https://octodex.github.com//images/labtocat.png",
+      "author": "jeejkang",
+      "haiku": "Tubos de ensayo\nExperimentos de Git\nCiencia de código"
+    },
+    {
+      "name": "the Dunetocat",
+      "url": "https://octodex.github.com//images/dunetocat.png",
+      "author": "jeejkang",
+      "haiku": "Arena infinita\nEspecias de programación\nEl código fluye"
+    },
+    {
+      "name": "the OctoLiberty",
+      "url": "https://octodex.github.com//images/octoliberty.png",
+      "author": "tonyjaramillo",
+      "haiku": "Libertad del code\nAntorcha de open source\nIlumina GitHub"
+    },
+    {
+      "name": "the Femalecodertocat",
+      "url": "https://octodex.github.com//images/femalecodertocat.png",
+      "author": "JohnCreek",
+      "haiku": "Teclas que danzan\nMente brillante crea\nCódigo sin par"
+    },
+    {
+      "name": "the Daftpunktocat-Thomas",
+      "url": "https://octodex.github.com//images/daftpunktocat-thomas.gif",
+      "author": "JohnCreek",
+      "haiku": "Mejor, más rápido\nMás fuerte, más eficiente\nPunk del código puro"
+    },
+    {
+      "name": "the Daftpunktocat-Guy",
+      "url": "https://octodex.github.com//images/daftpunktocat-guy.gif",
+      "author": "tonyjaramillo",
+      "haiku": "Pulso digital\nAlrededor del mundo git\nComandos robot"
+    },
+    {
+      "name": "the Founding Father v2",
+      "url": "https://octodex.github.com//images/foundingfather_v2.png",
+      "author": "jeejkang",
+      "haiku": "Democracia Git\nTodas las ramas unidas\nLibertad de code"
+    },
+    {
+      "name": "the Poptocat v2",
+      "url": "https://octodex.github.com//images/poptocat_v2.png",
+      "author": "jeejkang",
+      "haiku": "Arte del código\nColores pop en GitHub\nCommit colorido"
+    },
+    {
+      "name": "the Mardigrastocat",
+      "url": "https://octodex.github.com//images/Mardigrastocat.png",
+      "author": "jeejkang",
+      "haiku": "Fiesta de código\nMáscaras de Mardi Gras\nGit carnaval"
+    },
+    {
+      "name": "the Kimonotocat",
+      "url": "https://octodex.github.com//images/kimonotocat.png",
+      "author": "jeejkang",
+      "haiku": "Elegante code\nFlores de cerezo git\nJapón en GitHub"
+    },
+    {
+      "name": "the professortocat_v2",
+      "url": "https://octodex.github.com//images/Professortocat_v2.png",
+      "author": "jeejkang",
+      "haiku": "Sabiduría\nEnseña el camino git\nAlumnos aprenden"
+    },
+    {
+      "name": "the goretocat",
+      "url": "https://octodex.github.com//images/goretocat.png",
+      "author": "jeejkang",
+      "haiku": "Sangre de código\nTerror en cada commit\nBugs escalofriantes"
+    },
+    {
+      "name": "the Robotocat",
+      "url": "https://octodex.github.com//images/Robotocat.png",
+      "author": "jeejkang",
+      "haiku": "Metal y circuitos\nAutomación perfecta\nRobot de GitHub"
+    },
+    {
+      "name": "the Motherhubbertocat",
+      "url": "https://octodex.github.com//images/motherhubbertocat.png",
+      "author": "jeejkang",
+      "haiku": "Anciana sabia\nCuentos de viejo código\nHistorias Git"
+    },
+    {
+      "name": "the Skitchtocat",
+      "url": "https://octodex.github.com//images/skitchtocat.png",
+      "author": "jeejkang",
+      "haiku": "Patines veloces\nDeslizando por el code\nTricks de GitHub"
+    },
+    {
+      "name": "the Gangnamtocat",
+      "url": "https://octodex.github.com//images/gangnamtocat.png",
+      "author": "jeejkang",
+      "haiku": "Baile de Gangnam\nEstilo de código chic\nSeúl en GitHub"
+    },
+    {
+      "name": "the Dr.Octocat",
+      "url": "https://octodex.github.com//images/droctocat.png",
+      "author": "jeejkang",
+      "haiku": "Cura los errores\nDiagnóstico preciso\nSalud para Git"
+    },
+    {
+      "name": "the Spidertocat",
+      "url": "https://octodex.github.com//images/spidertocat.png",
+      "author": "jonrohan",
+      "haiku": "Telaraña web\nAtrapando bugs furtivos\nSentido arácnido"
+    },
+    {
+      "name": "the Megacat v2",
+      "url": "https://octodex.github.com//images/megacat-2.png",
+      "author": "jeejkang",
+      "haiku": "Poder desatado\nBlaster de código limpio\nMega energía"
+    },
+    {
+      "name": "the Dodgetocat v2",
+      "url": "https://octodex.github.com//images/dodgetocat_v2.png",
+      "author": "jeejkang",
+      "haiku": "Esquiva problemas\nÁgil entre los errores\nNadie le alcanza"
+    },
+    {
+      "name": "the Stormtroopocat",
+      "url": "https://octodex.github.com//images/stormtroopocat.png",
+      "author": "jeejkang",
+      "haiku": "Imperio del code\nPrecisión cuestionable\nFuerza de GitHub"
+    },
+    {
+      "name": "the Pusheencat",
+      "url": "https://octodex.github.com//images/pusheencat.png",
+      "author": "jeejkang",
+      "haiku": "Gordito y suave\nPushes con gran ternura\nCommits adorables"
+    },
+    {
+      "name": "the Deckfailcat",
+      "url": "https://octodex.github.com//images/deckfailcat.png",
+      "author": "tonyjaramillo",
+      "haiku": "Pobre skater\nCaída en el código\nErro 404"
+    },
+    {
+      "name": "the Murakamicat",
+      "url": "https://octodex.github.com//images/murakamicat.png",
+      "author": "jeejkang",
+      "haiku": "Surrealismo\nLibros de código extraño\nGitHub literario"
+    },
+    {
+      "name": "the Homercat",
+      "url": "https://octodex.github.com//images/homercat.png",
+      "author": "billyroh",
+      "haiku": "Donas de código\nCerveza Duff en GitHub\nD'oh en cada bug"
+    },
+    {
+      "name": "the Minion",
+      "url": "https://octodex.github.com//images/minion.png",
+      "author": "mattgraham",
+      "haiku": "Banana gitana\nServidores amarillos\nCódigo travieso"
+    },
+    {
+      "name": "the Droidtocat",
+      "url": "https://octodex.github.com//images/droidtocat.png",
+      "author": "billyroh",
+      "haiku": "Android y GitHub\nVerde implementación\nOpen source unido"
+    },
+    {
+      "name": "the Octofez",
+      "url": "https://octodex.github.com//images/octofez.png",
+      "author": "nickh",
+      "haiku": "Sombrero rojo\nElegancia otomana\nGit con historia"
+    },
+    {
+      "name": "the Heisencat",
+      "url": "https://octodex.github.com//images/heisencat.png",
+      "author": "nickh",
+      "haiku": "Química de code\nIncierto y preciso a la vez\nAzul cristalino"
+    },
+    {
+      "name": "the Red Polo",
+      "url": "https://octodex.github.com//images/red-polo.png",
+      "author": "tonyjaramillo",
+      "haiku": "Rojo elegante\nCódigo corporativo\nOficina Git"
+    },
+    {
+      "name": "the 20% Cooler Octocat",
+      "url": "https://octodex.github.com//images/twenty-percent-cooler-octocat.png",
+      "author": "nickh",
+      "haiku": "Arcoíris code\nVeinte por ciento mejor\nPony en GitHub"
+    },
+    {
+      "name": "the Momtocat",
+      "url": "https://octodex.github.com//images/momtocat.png",
+      "author": "jonrohan",
+      "haiku": "Amor maternal\nCuida pequeños commits\nGit en familia"
+    },
+    {
+      "name": "the Front-End Conftocat",
+      "url": "https://octodex.github.com//images/front-end-conftocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Conferencia web\nHTML, CSS brillan\nFrontend de GitHub"
+    },
+    {
+      "name": "the Snow Octocat",
+      "url": "https://octodex.github.com//images/snowoctocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Nieve invernal\nRepo bajo cero grados\nCommit helado"
+    },
+    {
+      "name": "the Electrocat",
+      "url": "https://octodex.github.com//images/electrocat.png",
+      "author": "tonyjaramillo",
+      "haiku": "Código eléctrico\nCircuitos de GitHub\nBits energéticos"
+    },
+    {
+      "name": "the Codercat",
+      "url": "https://octodex.github.com//images/codercat.jpg",
+      "author": "tonyjaramillo",
+      "haiku": "Pantalla brillante\nDedos ágiles codean\nGit nocturno"
+    },
+    {
+      "name": "the Strongbadtocat",
+      "url": "https://octodex.github.com//images/strongbadtocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Emails graciosos\nPantalla verde antigua\nGuante de boxeo"
+    },
+    {
+      "name": "the Adventure Cat",
+      "url": "https://octodex.github.com//images/adventure-cat.png",
+      "author": "cameronmcefee",
+      "haiku": "Tierra de Ooo\nMatemático código\nHora de aventura"
+    },
+    {
+      "name": "the Doctocat Brown",
+      "url": "https://octodex.github.com//images/doctocat-brown.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Viaje temporal\nCódigo del futuro\nGita watts"
+    },
+    {
+      "name": "the Dojocat",
+      "url": "https://octodex.github.com//images/dojocat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Disciplina zen\nArtes marciales del code\nGit guerrero"
+    },
+    {
+      "name": "the Defunktocat",
+      "url": "https://octodex.github.com//images/defunktocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Ritmo funky\nCommits al son del bajo\nGroove en GitHub"
+    },
+    {
+      "name": "the Nemesis",
+      "url": "https://octodex.github.com//images/herme-t-crabb.png",
+      "author": "jonrohan",
+      "haiku": "Villano de code\nTentáculos amenazantes\nBugs oscuros"
+    },
+    {
+      "name": "the Saint Nicktocat",
+      "url": "https://octodex.github.com//images/saint-nicktocat.jpg",
+      "author": "jonrohan",
+      "haiku": "Regalos de code\nNavidad en repositorios\nGit generoso"
+    },
+    {
+      "name": "the Ordered Listocat",
+      "url": "https://octodex.github.com//images/orderedlistocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Lista ordenada\nOrden en el caos Git\nTareas cumplidas"
+    },
+    {
+      "name": "the Thanktocat",
+      "url": "https://octodex.github.com//images/thanktocat.png",
+      "author": "jasoncostello",
+      "haiku": "Gratitud sincera\nCodeamos juntos hoy\nGracias por pushear"
+    },
+    {
+      "name": "the Megacat",
+      "url": "https://octodex.github.com//images/megacat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Azul armadura\nBlaster de código puro\nPoder de GitHub"
+    },
+    {
+      "name": "the Linktocat",
+      "url": "https://octodex.github.com//images/linktocat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Héroe de Hyrule\nGit salva a la princesa\nTriforce de code"
+    },
+    {
+      "name": "the Plumber",
+      "url": "https://octodex.github.com//images/plumber.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Tubería Git\nArreglando fugas de code\nSetas de poder"
+    },
+    {
+      "name": "the Octotron",
+      "url": "https://octodex.github.com//images/octotron.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Mundo digital\nProgramas de otro mundo\nTron en GitHub"
+    },
+    {
+      "name": "the Baracktocat",
+      "url": "https://octodex.github.com//images/baracktocat.jpg",
+      "author": "jasoncostello",
+      "haiku": "Yes we can code\nRepositorios unidos\nGit presidencial"
+    },
+    {
+      "name": "the Octocat De Los Muertos",
+      "url": "https://octodex.github.com//images/octocat-de-los-muertos.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Calaveras git\nDía de muertos en code\nVida eterna pull"
+    },
+    {
+      "name": "the Grim Repo",
+      "url": "https://octodex.github.com//images/grim-repo.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Segador de code\nCosecha bugs olvidados\nMuerte de errores"
+    },
+    {
+      "name": "the Father Timeout",
+      "url": "https://octodex.github.com//images/father_timeout.jpg",
+      "author": "broccolini",
+      "haiku": "Tiempo agotado\nPadre de la paciencia\nEspera el commit"
+    },
+    {
+      "name": "the Where's Waldocat",
+      "url": "https://octodex.github.com//images/waldocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Búsqueda en código\nEntre líneas se esconde\n¿Dónde está el bug?"
+    },
+    {
+      "name": "the Hipster Partycat",
+      "url": "https://octodex.github.com//images/hipster-partycat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Fiesta indie code\nUsaba git antes que tú\nGafas de pasta"
+    },
+    {
+      "name": "the Riddlocat",
+      "url": "https://octodex.github.com//images/riddlocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Enigmas de code\nAcertijos en GitHub\nBatman confuso"
+    },
+    {
+      "name": "the Visionary",
+      "url": "https://octodex.github.com//images/visionary.jpg",
+      "author": "jasoncostello",
+      "haiku": "Futuro del code\nVisión más allá del push\nGit innovador"
+    },
+    {
+      "name": "the Oktobercat",
+      "url": "https://octodex.github.com//images/oktobercat.png",
+      "author": "jasoncostello",
+      "haiku": "Cerveza y código\nFestival de Oktoberfest\nGit alemán"
+    },
+    {
+      "name": "the Shoptocat",
+      "url": "https://octodex.github.com//images/shoptocat.png",
+      "author": "jina",
+      "haiku": "Compras de código\nMerge de ofertas especiales\nCarrito de Git"
+    },
+    {
+      "name": "the Nyantocat",
+      "url": "https://octodex.github.com//images/nyantocat.gif",
+      "author": "cameronmcefee",
+      "haiku": "Arcoíris code\nGato pop atravesando\nEspacio de Git"
+    },
+    {
+      "name": "the Octdrey Catburn",
+      "url": "https://octodex.github.com//images/octdrey-catburn.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Elegancia negra\nActriz de código estelar\nGit en Hollywood"
+    },
+    {
+      "name": "the Spectrocat",
+      "url": "https://octodex.github.com//images/spectrocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Espectro de luz\nArcoíris de código\nGit colorido"
+    },
+    {
+      "name": "the Bear Cavalry",
+      "url": "https://octodex.github.com//images/bear-cavalry.png",
+      "author": "cameronmcefee",
+      "haiku": "Caballería oso\nGalopando en GitHub\nCódigo salvaje"
+    },
+    {
+      "name": "the Andycat",
+      "url": "https://octodex.github.com//images/andycat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Arte pop brillante\nWarholiano GitHub\nColores de code"
+    },
+    {
+      "name": "the Not Octocat",
+      "url": "https://octodex.github.com//images/notocat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Negación felina\nNo es gato, no es pulpo\nEs solo GitHub"
+    },
+    {
+      "name": "the Dodge, Duck, Dip, Dive, Dodgetocat",
+      "url": "https://octodex.github.com//images/dodgetocat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Esquiva, agáchate\nEsquiva bugs y problemas\nCódigo ágil"
+    },
+    {
+      "name": "the Cloud",
+      "url": "https://octodex.github.com//images/cloud.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Flotar en la nube\nCódigo etéreo y suave\nGit sin servidor"
+    },
+    {
+      "name": "the Scarletteocat",
+      "url": "https://octodex.github.com//images/scarletteocat.jpg",
+      "author": "jasoncostello",
+      "haiku": "Rojo pasional\nCódigo de Hollywood\nGit elegante"
+    },
+    {
+      "name": "the Poptocat",
+      "url": "https://octodex.github.com//images/poptocat.png",
+      "author": "cameronmcefee",
+      "haiku": "Colores de arte\nPop art en repositorio\nWarhol de GitHub"
+    },
+    {
+      "name": "the Jenktocat",
+      "url": "https://octodex.github.com//images/jenktocat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Integración\nConstructor de flujos code\nEntrega continua"
+    },
+    {
+      "name": "the X-tocat",
+      "url": "https://octodex.github.com//images/xtocat.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Mutante de code\nPoderes de GitHub X\nMutación de Git"
+    },
+    {
+      "name": "the Chellocat",
+      "url": "https://octodex.github.com//images/chellocat.jpg",
+      "author": "jordanmccullough",
+      "haiku": "Música de code\nNotas graves del cello\nSinfonía Git"
+    },
+    {
+      "name": "the Cherryontop-o-cat",
+      "url": "https://octodex.github.com//images/cherryontop-o-cat.png",
+      "author": "cameronmcefee",
+      "haiku": "Dulce cereza\nCódigo con toque final\nPostre de GitHub"
+    },
+    {
+      "name": "the Supportcat",
+      "url": "https://octodex.github.com//images/supportcat.png",
+      "author": "cameronmcefee",
+      "haiku": "Ayuda constante\nSoluciones y soporte\nGit a tu lado"
+    },
+    {
+      "name": "the Collabocats",
+      "url": "https://octodex.github.com//images/collabocats.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Juntos codeando\nColaboran en GitHub\nPull requests unidos"
+    },
+    {
+      "name": "the Constructocat",
+      "url": "https://octodex.github.com//images/constructocat2.jpg",
+      "author": "cameronmcefee",
+      "haiku": "Construye con code\nEdificio de GitHub\nSólidas bases git"
+    },
+    {
+      "name": "the Total Eclipse of the Octocat",
+      "url": "https://octodex.github.com//images/total-eclipse-of-the-octocat.jpg",
+      "author": "jasoncostello",
+      "haiku": "Luna tapa al sol\nEclipse total de code\nOscuridad Git"
+    },
+    {
+      "name": "the Blinktocat, Pinktocat, Inktocat, and Clyde",
+      "url": "https://octodex.github.com//images/pacman-ghosts.jpg",
+      "author": "jasoncostello",
+      "haiku": "Fantasmas de code\nPersiguen bugs en GitHub\nPacman veloz"
+    },
+    
+    {
+        "name": "the Octoclark Kentocat",
+        "url": "https://octodex.github.com//images/octoclark-kentocat.jpg",
+        "author": "jasoncostello",
+        "haiku": "Sabiduría\nClark Kent con tentáculos\nHéroe secreto"
+      },
+      {
+        "name": "the Agendacat",
+        "url": "https://octodex.github.com//images/agendacat.png",
+        "author": "cameronmcefee",
+        "haiku": "Organización\nPlanificando el día\nTiempo que ronronea"
+      },
+      {
+        "name": "the IronCat",
+        "url": "https://octodex.github.com//images/ironcat.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Traje de metal\nGenio felino brillante\nSalva el código"
+      },
+      {
+        "name": "the Inspectocat",
+        "url": "https://octodex.github.com//images/inspectocat.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Buscando errores\nCon lupa de detective\nNada se escapa"
+      },
+      {
+        "name": "the Jean-Luc Picat",
+        "url": "https://octodex.github.com//images/jean-luc-picat.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Así será, miau\nCapitán de Enterprise\nComete con valor"
+      },
+      {
+        "name": "the Spocktocat",
+        "url": "https://octodex.github.com//images/spocktocat.png",
+        "author": "jasoncostello",
+        "haiku": "Lógica suprema\nMente vulcana marina\nLarga vida y paz"
+      },
+      {
+        "name": "the Wilson",
+        "url": "https://octodex.github.com//images/wilson.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Solo en la isla\nFiel amigo de sangre\nRostro dibujado"
+      },
+      {
+        "name": "the Swagtocat",
+        "url": "https://octodex.github.com//images/swagtocat.png",
+        "author": "jasoncostello",
+        "haiku": "Fluye confianza\nGafas ocultan sus ojos\nEstilo y actitud"
+      },
+      {
+        "name": "the Drunktocat",
+        "url": "https://octodex.github.com//images/drunktocat.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Una copa más\nTambaleando el código\nCommit con hipo"
+      },
+      {
+        "name": "the Hubot",
+        "url": "https://octodex.github.com//images/hubot.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Amigo robot\nComandos automáticos\nSiempre eficiente"
+      },
+      {
+        "name": "the Monroe",
+        "url": "https://octodex.github.com//images/monroe.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Belleza icónica\nRepositorios ardientes\nVestido al viento"
+      },
+      {
+        "name": "the Trekkie",
+        "url": "https://octodex.github.com//images/trekkie.png",
+        "author": "cameronmcefee",
+        "haiku": "Límite de estrellas\nViajes por el código\nBusca nuevos bugs"
+      },
+      {
+        "name": "the Octonaut",
+        "url": "https://octodex.github.com//images/octonaut.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Explorador\nTentáculos en lo hondo\nMar misterioso"
+      },
+      {
+        "name": "the Bouncer",
+        "url": "https://octodex.github.com//images/bouncercat.png",
+        "author": "cameronmcefee",
+        "haiku": "Guardia vigilante\nCódigo malo no pasa\nSeguridad firme"
+      },
+      {
+        "name": "the Founding Father",
+        "url": "https://octodex.github.com//images/founding-father.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Constitución\nDeclarando libertad\nNosotros, los devs"
+      },
+      {
+        "name": "the Pythocat",
+        "url": "https://octodex.github.com//images/pythocat.png",
+        "author": "cameronmcefee",
+        "haiku": "Serpentea el código\nDiseño elegante\nSangría es la ley"
+      },
+      {
+        "name": "the Drupalcat",
+        "url": "https://octodex.github.com//images/drupalcat.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Gestión de contenido\nSitios web con facilidad\nGotas de Drupal"
+      },
+      {
+        "name": "the Socialite",
+        "url": "https://octodex.github.com//images/socialite.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Redes sociales\nConectando con gracia\nPresencia famosa"
+      },
+      {
+        "name": "the Setuptocat",
+        "url": "https://octodex.github.com//images/setuptocat.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Configuración\nPreparando entornos ya\nSistema listo"
+      },
+      {
+        "name": "the Repo",
+        "url": "https://octodex.github.com//images/repo.png",
+        "author": "cameronmcefee",
+        "haiku": "Guarda el código\nVersiones bien protegidas\nHistoria a salvo"
+      },
+      {
+        "name": "the Forktocat",
+        "url": "https://octodex.github.com//images/forktocat.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Ramificación\nNuevas direcciones crea\nCódigo que crece"
+      },
+      {
+        "name": "the Benevocats",
+        "url": "https://octodex.github.com//images/benevocats.png",
+        "author": "cameronmcefee",
+        "haiku": "Caridad en bits\nDonando a la comunidad\nBondad que se expande"
+      },
+      {
+        "name": "the Scottocat",
+        "url": "https://octodex.github.com//images/scottocat.jpg",
+        "author": "cameronmcefee",
+        "haiku": "Tradición escocesa\nKilt ondeando al viento\nGaitas de git pull"
+      },
+      {
+        "name": "the Puppeteer",
+        "url": "https://octodex.github.com//images/puppeteer.png",
+        "author": "cameronmcefee",
+        "haiku": "Tirando hilos\nOrquestando desde arriba\nControlando todo"
+      },
+      {
+        "name": "the Octobi Wan Catnobi",
+        "url": "https://octodex.github.com//images/octobiwan.jpg",
+        "author": "cameronmcefee",
+        "haiku": "La Fuerza en código\nMaestro Jedi del git\nFusión sin conflictos"
+      },
+      {
+        "name": "the Class Act",
+        "url": "https://octodex.github.com//images/class-act.png",
+        "author": "cameronmcefee",
+        "haiku": "Elegancia pura\nMétodos sofisticados\nEstilo con clase"
+      },
+      {
+        "name": "the Original",
+        "url": "https://octodex.github.com//images/original.png",
+        "author": "cameronmcefee",
+        "haiku": "Donde comenzó\nPrimer pulpo de GitHub\nGato primordial"
+      }
+]
