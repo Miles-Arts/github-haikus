@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Ruta principal
 app.get('/', (req, res) => {
-    const haikus = require('./utils/haikus.json');
+    const haikus = require('./utils/haikus_mona.json');
     res.render('index', { haikus });
 });
 

@@ -14,4 +14,19 @@ async function extractRandomHaikus(filePath, count = 1) {
   }
 }
 
-module.exports = { extractRandomHaikus };
+async function getRandomOctocat(filePath) {
+  try {
+    const data = await fs.readFile(filePath, 'utf-8');
+    const octocats = JSON.parse(data);
+    const randomIndex = Math.floor(Math.random() * octocats.length);
+    return octocats[randomIndex];
+  } catch (err) {
+    console.error('Error reading or parsing the file:', err);
+    throw err;
+  }
+}
+
+module.exports = {
+  extractRandomHaikus,
+  getRandomOctocat
+};

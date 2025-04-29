@@ -19,7 +19,7 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     color: #fff;
-    text-align:center;
+    text-align: center;
 }
 
 /* Estilo para el footer */
@@ -35,27 +35,24 @@ footer {
     margin-top: 2%;
 }
 
-.mona-images {
-    max-width: 18%; /* La imagen ocupará el 80% del ancho del contenedor */
-    max-height: 18vh; /* La altura máxima será el 80% de la altura de la pantalla */
+.octocat{
+    width: 10%; /* La imagen ocupará el 100% del ancho del contenedor */
+    max-width: 300px; /* Tamaño máximo de ancho */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
     margin: 0 auto; /* Centra la imagen horizontalmente */
-    border: 80px solid #2a2b2f;
-    
+    border: 5px solid #2a2b2f; /* Ajuste del borde */
 }
 
-/* .haiku-containers {
-    text-align: center;
-    padding: 10px 0px 20px 0px;
+.mona-images {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    max-width: 300px; /* Tamaño máximo de ancho */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border: 5px solid #2a2b2f; /* Ajuste del borde */
 }
-
-.haikus {
-    text-align: left;
-    font-size: 18px;
-    white-space: pre-wrap;
-} */
 
 .emoji {
-    font-size: 26px; /* Tamaño del emoji */
+    font-size: 1.5rem; /* Tamaño del emoji */
     margin-right: 16px; /* Espacio entre el emoji y el texto */
     vertical-align: middle; /* Alinea el emoji con el texto */
 }
@@ -63,26 +60,29 @@ footer {
 .haiku-containers {
     display: flex; /* Activa Flexbox */
     flex-direction: column;
-    align-items: center; /* Centra verticalmente el contenedor */ /* Asegura que ocupe toda la altura de la pantalla */
+    align-items: center; /* Centra verticalmente el contenedor */
     padding: 8px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    max-width: 90%; /* Limita el ancho máximo */
 }
 
 .haikus {
     text-align: left; /* Alinea el texto hacia la izquierda */
-    font-size: 18px;
+    font-size: 1.2rem; /* Ajusta el tamaño del texto */
     white-space: pre-wrap; /* Respeta los saltos de línea */
-
+    margin-bottom: 10px; /* Espaciado inferior */
 }
 
 @media only screen and (max-width: 600px) {
-    .june-images {
-        max-width: 340px;
-        max-height: 340px;
+    .mona-images {
+        max-width: 200px; /* Reduce el tamaño máximo en pantallas pequeñas */
     }
 
     .haikus {
-        font-size: 22px;
+        font-size: 1rem; /* Reduce el tamaño del texto en pantallas pequeñas */
+    }
+
+    .haiku-containers {
+        padding: 4px; /* Reduce el padding en pantallas pequeñas */
     }
 }
