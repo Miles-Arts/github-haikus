@@ -1,5 +1,5 @@
 const express = require('express');
-const { extractRandomHaikus } = require('./utils/helpers');
+const { extractRandomHaikus, getRandomOctocat } = require('./utils/helpers');
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -7,19 +7,19 @@ app.use(express.static('public'));
 
 app.get('/', async (req, res) => {
     try {
-        const emojis = ["🤖", "🖥️", "💻", "📱", "⌨️", "🖱️", "🧠", "📡", "🌐", "🔌", "⚙️", "🔋", "🔐", "🎮", "🔗"]
-        ; // Lista de emojis
-        const haikus = await extractRandomHaikus('./utils/haikus.json', 1); // Extrae 5 haikus aleatorios
+        const emojis = ["🤖", "🖥️", "💻", "📱", "⌨️", "🖱️", "🧠", "📡", "🌐", "🔌", "⚙️", "🔋", "🔐", "🎮", "🔗"];
+        const haikus = await extractRandomHaikus('./utils/mona.json', 1);
+        const octocat = await getRandomOctocat('./utils/haikus_mona.json');
 
-        // Asigna un emoji aleatorio a cada haiku
+        // Assign a random emoji to each haiku
         haikus.forEach(haiku => {
             haiku.emoji = emojis[Math.floor(Math.random() * emojis.length)];
         });
 
-        res.render('index', { haikus });
+        res.render('index', { haikus, octocat });
     } catch (err) {
-        console.error('Error procesando el archivo de texto:', err);
-        res.status(500).send('Error procesando el archivo de texto');
+        console.error('Error processing the file:', err);
+        res.status(500).send('Error processing the file');
     }
 });
 

@@ -14,9 +14,17 @@
       <p class="haikus">
         <span class="emoji"><%= haikus[i].emoji %></span> <%= haikus[i].text %>
       </p>
-      <img class="mona-images" src="/images/<%= haikus[i].image %>" alt="Haiku Image">
+      <!-- <img class="mona-images" src="/images/<%= haikus[i].image %>" alt="Haiku Image"> -->
       </div>
       <% } %>
+
+      <div class="octocat">
+        <h2><%= octocat.name %></h2>
+        <img src="<%= octocat.url %>" alt="<%= octocat.name %>" />
+        <p><%= octocat.haiku %></p>
+        <p><em>Author: <%= octocat.author %></em></p>
+      </div>
+
       <div style="text-align: center; margin-top: 20px;">
         <button onclick="window.location.reload()"
           style="padding: 14px 120px; font-size: 16px; background-color: #007BFF; color: white; border: none; border-radius: 30px; cursor: pointer;">
