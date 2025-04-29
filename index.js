@@ -7,14 +7,8 @@ app.use(express.static('public'));
 
 app.get('/', async (req, res) => {
     try {
-        const emojis = ["🤖", "🖥️", "💻", "📱", "⌨️", "🖱️", "🧠", "📡", "🌐", "🔌", "⚙️", "🔋", "🔐", "🎮", "🔗"];
         const haikus = await extractRandomHaikus('./utils/mona.json', 1);
         const octocat = await getRandomOctocat('./utils/haikus_mona.json');
-
-        // Assign a random emoji to each haiku
-        haikus.forEach(haiku => {
-            haiku.emoji = emojis[Math.floor(Math.random() * emojis.length)];
-        });
 
         res.render('index', { haikus, octocat });
     } catch (err) {
