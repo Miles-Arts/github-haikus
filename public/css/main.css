@@ -39,10 +39,23 @@ footer {
 }
 
 .mona-images {
-    max-width: 130%; /* Ajusta el tamaño de las imágenes al 50% del ancho del contenedor */
+   
+    max-width: 130%; /* Mantiene el tamaño actual de las imágenes al 130% del ancho del contenedor */
     height: auto; /* Mantiene la proporción de las imágenes */
-    margin: 0 auto; /* Centra las imágenes horizontalmente */
-    border-radius: 4px; /* Bordes redondeados */
+    margin: center; /* Centra las imágenes horizontalmente */
+    display: block; /* Asegura que las imágenes se comporten como elementos de bloque */
+    
+    padding-left: 10%; /* Asegura proporción de distancia horizontal */
+    padding-right: 10%; /* Asegura proporción de distancia horizontal */
+    border-radius: 0px; /* Bordes redondeados */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Añade una sombra para el efecto flotante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el efecto */
+    
+}
+
+.mona-images:hover {
+    transform: translateY(-20px); /* Eleva la imagen ligeramente al pasar el cursor */
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.4); /* Intensifica la sombra al pasar el cursor */
 }
 
 .haiku-containers {
@@ -84,5 +97,31 @@ footer {
 
     .haiku-containers {
         padding: 4px;
+    }
+
+    body {
+        margin-top: 20px; /* Margen superior consistente */
+        margin-bottom: 20px; /* Margen inferior consistente */
+    }
+
+    .haiku-containers {
+        margin-top: 10px; /* Ajusta el margen superior */
+        margin-bottom: 10px; /* Ajusta el margen inferior */
+    }
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    .mona-images {
+        max-width: 20px; /* Ajusta el tamaño de las imágenes */
+        margin: 0 auto; /* Centra las imágenes */
+    }
+
+    .haikus {
+        font-size: 1rem; /* Ajusta el tamaño del texto */
+        text-align: center; /* Centra el texto */
+    }
+
+    .haiku-containers {
+        padding: 4px; /* Reduce el padding */
     }
 }
