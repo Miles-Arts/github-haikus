@@ -110,22 +110,6 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) and (orientation: landscape) {
-    .mona-images {
-        max-width: 20px; /* Ajusta el tamaño de las imágenes */
-        margin: 0 auto; /* Centra las imágenes */
-    }
-
-    .haikus {
-        font-size: 1rem; /* Ajusta el tamaño del texto */
-        text-align: center; /* Centra el texto */
-    }
-
-    .haiku-containers {
-        padding: 4px; /* Reduce el padding */
-    }
-}
-
 @media only screen and (min-width: 1024px) {
     .haiku-containers {
         flex-direction: row;
