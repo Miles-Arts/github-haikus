@@ -7,7 +7,7 @@ app.use(express.static('public'));
 
 app.get('/', async (req, res) => {
     try {
-        const haikus = await extractRandomHaikus('./utils/mona.json', 1);
+        const haikus = await extractRandomHaikus('./utils/haikus_mona.json', 1);
         const octocat = await getRandomOctocat('./utils/haikus_mona.json');
 
         res.render('index', { haikus, octocat });
@@ -17,7 +17,7 @@ app.get('/', async (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
